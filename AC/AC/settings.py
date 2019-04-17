@@ -55,7 +55,7 @@ ROOT_URLCONF = 'AC.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\1600492\Documents\projetoFaculdade\AC\core\templates'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

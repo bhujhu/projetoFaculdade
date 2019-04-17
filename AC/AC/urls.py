@@ -19,6 +19,10 @@ from core.views import *
 
 urlpatterns = [
 	path('', index),
-	path('html/login.html', login),
+    path('html/login.html', login),
+    path('html/cadastrar.html', cadastrar),
+    path('html/graduacao.html', graduacao),
+    path('html/posemba.html', posemba),
+    path('html/tecnico.html', tecnico),
     path('admin/', admin.site.urls),
 ]
