@@ -18,7 +18,7 @@ from django.urls import path
 from core.views import *
 
 urlpatterns = [
-	path('',index),
-	path('login/',login),
+	path('', index),
+	path('html/login.html', login),
     path('admin/', admin.site.urls),
 ]
